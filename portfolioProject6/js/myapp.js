@@ -112,7 +112,7 @@
 
 		let button = document.body.addEventListener('click', e => {
 		  if (e.target.nodeName == 'BUTTON') {
-					e.target.classList.add="chosen";
+					e.target.classList.add("chosen");
 		     		e.target.setAttribute('disabled', true);
 		    		button = e.target.textContent;
 		    		let letterFound = checkLetter(button);
